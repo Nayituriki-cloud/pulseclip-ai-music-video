@@ -1,0 +1,6 @@
+{
+  "name": "PulseClip - AI Music Video Clip Studio",
+  "description": "Generate strong, cinematic, beat-synced music video clips ready to download in 1080p and 4K for TikTok, Reels, and YouTube Shorts.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

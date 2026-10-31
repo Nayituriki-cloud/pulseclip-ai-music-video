@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PulseClip - AI Music Video Clip Studio</title>
+    <meta name="description" content="Generate strong, cinematic, beat-synced music video clips ready to download in 1080p and 4K for TikTok, Reels, and YouTube Shorts." />
+    <meta property="og:title" content="PulseClip - AI Music Video Clip Studio" />
+    <meta property="og:description" content="Generate strong, cinematic, beat-synced music video clips ready to download in 1080p and 4K for TikTok, Reels, and YouTube Shorts." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+      // Ignore HMR WebSocket connection errors in sandbox per environment constraints
+      window.addEventListener('error', function(e) {
+        if (e.message && (e.message.includes('WebSocket') || e.message.includes('createWebSocketModuleRunnerTransport') || (e.filename && e.filename.includes('@vite/client')))) {
+          e.stopImmediatePropagation();
+          e.preventDefault();
+        }
+      });
+      window.addEventListener('unhandledrejection', function(e) {
+        const msg = String(e.reason?.message || e.reason || '');
+        if (msg.includes('WebSocket') || msg.includes('createWebSocketModuleRunnerTransport') || msg.includes('@vite/client')) {
+          e.stopImmediatePropagation();
+          e.preventDefault();
+        }
+      });
+    </script>
+  </head>
+  <body class="bg-[#08090d] text-slate-100 antialiased selection:bg-cyan-500 selection:text-black">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
